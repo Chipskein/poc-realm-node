@@ -1,0 +1,16 @@
+{
+  "name": "realm-node",
+  "version": "1.0.0",
+  "description": "POV realm-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
+  },
+  "author": "Chipskein",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "realm": "^10.19.5"
+  }
+}
